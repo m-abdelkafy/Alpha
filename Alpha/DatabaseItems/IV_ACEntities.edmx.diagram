@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3d02716dc8ac4d5984cde153f66cd308" Name="Diagram1">
+        <EntityTypeShape EntityType="IV_ACModel.Brand" Width="1.5" PointX="3.75" PointY="11.125" />
+        <EntityTypeShape EntityType="IV_ACModel.Category" Width="1.5" PointX="3.75" PointY="13.75" />
+        <EntityTypeShape EntityType="IV_ACModel.Client" Width="1.5" PointX="6" PointY="3.5" />
+        <EntityTypeShape EntityType="IV_ACModel.Expence" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="IV_ACModel.Installment" Width="1.5" PointX="8.25" PointY="7.25" />
+        <EntityTypeShape EntityType="IV_ACModel.Item" Width="1.5" PointX="6" PointY="7" />
+        <EntityTypeShape EntityType="IV_ACModel.ItemTransaction" Width="1.5" PointX="8.25" PointY="3.625" />
+        <EntityTypeShape EntityType="IV_ACModel.Maintenance" Width="1.5" PointX="11.25" PointY="7.125" />
+        <EntityTypeShape EntityType="IV_ACModel.Supplier" Width="1.5" PointX="0.75" PointY="7.5" />
+        <EntityTypeShape EntityType="IV_ACModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="IV_ACModel.Transaction" Width="1.5" PointX="3" PointY="7.375" />
+        <EntityTypeShape EntityType="IV_ACModel.Warranty" Width="1.5" PointX="3.75" PointY="4.25" />
+        <AssociationConnector Association="IV_ACModel.FK_Items_Brands" />
+        <AssociationConnector Association="IV_ACModel.FK_Items_Categories" />
+        <AssociationConnector Association="IV_ACModel.FK_Installment_Client" />
+        <AssociationConnector Association="IV_ACModel.FK_Maintenance_Client" />
+        <AssociationConnector Association="IV_ACModel.FK_Transaction_Client" />
+        <AssociationConnector Association="IV_ACModel.FK_Installment_Supplier" />
+        <AssociationConnector Association="IV_ACModel.FK_Installment_Transaction" />
+        <AssociationConnector Association="IV_ACModel.FK_Items_Supplier" />
+        <AssociationConnector Association="IV_ACModel.FK_Items_Warranty" />
+        <AssociationConnector Association="IV_ACModel.FK_ItemTransaction_Item" />
+        <AssociationConnector Association="IV_ACModel.FK_Maintenance_Item" />
+        <AssociationConnector Association="IV_ACModel.FK_Transaction_Item_Transactions" />
+        <AssociationConnector Association="IV_ACModel.FK_Maintenance_Transaction" />
+        <AssociationConnector Association="IV_ACModel.FK_Maintenance_Warranty" />
+        <AssociationConnector Association="IV_ACModel.FK_Transactions_Supplier" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
