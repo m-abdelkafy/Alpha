@@ -17,6 +17,8 @@ namespace Alpha.Forms
         private readonly UCBuy _ucBuy = new UCBuy();
         private readonly UCSell _ucSell = new UCSell();
         private readonly UCExpence _ucExpense = new UCExpence();
+        private readonly UCSearchItem _usSearchItem = new UCSearchItem();
+        //private readonly UCSearchTransaction _usSearchTransaction = new UCSearchTransaction();
 
         public MainForm()
         {
@@ -69,12 +71,14 @@ namespace Alpha.Forms
         #region Search
         private void btnSearchItem_CheckedChanged(object sender, EventArgs e)
         {
-
+            xucMain.Controls.Clear();
+            if (_usSearchItem != null) xucMain.Controls.Add(_usSearchItem);
         }
 
         private void btnSearchTransaction_CheckedChanged(object sender, EventArgs e)
         {
-
+            xucMain.Controls.Clear();
+            //if (_usSearchTransaction != null) xucMain.Controls.Add(_usSearchTransaction);
         }
         #endregion
         #endregion

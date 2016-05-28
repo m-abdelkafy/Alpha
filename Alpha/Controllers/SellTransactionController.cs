@@ -13,7 +13,6 @@ namespace Alpha.Controllers
 		{
 			try
 			{
-
 				return true;
 			}
 			catch (Exception)

@@ -181,6 +181,12 @@
     <Compile Include="Views\UCExpence.Designer.cs">
       <DependentUpon>UCExpence.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\UCSearchItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UCSearchItem.Designer.cs">
+      <DependentUpon>UCSearchItem.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\UCSell.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -207,6 +213,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\UCExpence.resx">
       <DependentUpon>UCExpence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UCSearchItem.resx">
+      <DependentUpon>UCSearchItem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\UCSell.resx">
       <DependentUpon>UCSell.cs</DependentUpon>

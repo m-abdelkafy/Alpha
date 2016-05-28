@@ -141,5 +141,13 @@ namespace Alpha.BusinessLogic
 			}
 			return true;
 		}
+
+	    public static void ClearErrorPopupsFromControls(params Control[] controls)
+	    {
+	        foreach (Control control in controls)
+	        {
+                Error.SetError(control, GetNotifyMessage(NotifyMessage.Empty));
+            }
+	    }
 	}
 }
