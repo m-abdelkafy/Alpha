@@ -187,12 +187,6 @@
     <Compile Include="Views\UCSell.Designer.cs">
       <DependentUpon>UCSell.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\UCTransactions.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Views\UCTransactions.Designer.cs">
-      <DependentUpon>UCTransactions.cs</DependentUpon>
-    </Compile>
     <Compile Include="Utilities\ControlHelperUtil.cs" />
     <EmbeddedResource Include="Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -216,9 +210,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\UCSell.resx">
       <DependentUpon>UCSell.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\UCTransactions.resx">
-      <DependentUpon>UCTransactions.cs</DependentUpon>
     </EmbeddedResource>
     <EntityDeploy Include="DatabaseItems\IV_ACEntities.edmx">
       <Generator>EntityModelCodeGenerator</Generator>

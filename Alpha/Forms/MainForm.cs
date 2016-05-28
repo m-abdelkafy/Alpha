@@ -44,7 +44,9 @@ namespace Alpha.Forms
             ApplicationHelperUtil.ExitApplication();
         }
 
+
         #region Buttons
+        #region Daily Transactions
         private void btnSell_CheckedChanged(object sender, EventArgs e)
         {
             xucMain.Controls.Clear();
@@ -63,6 +65,20 @@ namespace Alpha.Forms
             if (_ucExpense != null) xucMain.Controls.Add(_ucExpense);
         }
         #endregion
+
+        #region Search
+        private void btnSearchItem_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSearchTransaction_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+        #endregion
+        #endregion
+
 
     }
 }

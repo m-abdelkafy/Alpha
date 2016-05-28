@@ -290,6 +290,7 @@
             this.btnSearchItem.StyleController = this.layoutControl2;
             this.btnSearchItem.TabIndex = 4;
             this.btnSearchItem.Text = "Search Item";
+            this.btnSearchItem.CheckedChanged += new System.EventHandler(this.btnSearchItem_CheckedChanged);
             // 
             // btnExpenses
             // 
@@ -311,6 +312,7 @@
             this.btnSearchTransaction.StyleController = this.layoutControl2;
             this.btnSearchTransaction.TabIndex = 4;
             this.btnSearchTransaction.Text = "Search Transaction";
+            this.btnSearchTransaction.CheckedChanged += new System.EventHandler(this.btnSearchTransaction_CheckedChanged);
             // 
             // layoutControlGroup2
             // 
